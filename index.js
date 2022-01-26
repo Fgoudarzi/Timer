@@ -4,7 +4,7 @@ const startBtnElm = document.getElementById("startBtn");
 const stopBtnElm = document.getElementById("stopBtn");
 let intervalId;
 startBtnElm.addEventListener("click", start);
-stopBtnElm.addEventListener("click", stop);
+stopBtnElm.addEventListener("click", stop)
 
 function start() {
   let seconds;
